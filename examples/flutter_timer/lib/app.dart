@@ -6,6 +6,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Timer',
+
       theme: ThemeData(
         primaryColor: Color.fromRGBO(109, 234, 255, 1),
         colorScheme: ColorScheme.light(

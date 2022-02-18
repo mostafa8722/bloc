@@ -26,6 +26,10 @@ class App extends StatelessWidget {
       ],
       child: MaterialApp(
         title: 'Flutter Bloc Shopping Cart',
+
+
+
+        debugShowCheckedModeBanner: false,
         initialRoute: '/',
         routes: {
           '/': (_) => CatalogPage(),
